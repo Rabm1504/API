@@ -8,15 +8,18 @@
     "start": "node index.js",
     "lint": "eslint"
   },
+  "type": "module",
   "author": "Renny Belandria",
   "license": "MIT",
   "devDependencies": {
+    "@types/faker": "^6.6.9",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1",
+    "faker": "^5.5.3"
   }
 }
